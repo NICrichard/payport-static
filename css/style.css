@@ -1,0 +1,55 @@
+.wrap-site header#banner {
+    background: #fff;
+    overflow: hidden;
+}
+
+#img-background {
+    display: none;
+}
+
+header#banner .wrap-brand .brand-text img {
+    width: 250px;
+    margin-top: 15px;
+}
+
+#payport-banner {
+    background-color: #fff;
+    background-image: url('/images/slide.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 90px 15px;
+    text-align: right;
+    border-bottom: 3px solid #333;
+}
+
+@media only screen and (max-width: 992px) {
+    #payport-banner {
+        background-position: -100px center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #payport-banner {
+        background-image: none;
+    }
+}
+
+#payport-banner h2 {
+    text-align: right;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#payport-banner img {
+    width: 350px;
+}
+
+footer#content-info .footer h3 {
+    border-bottom: 0px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.list-unstyled.list-benefits li {
+    margin-bottom: 5px;
+}
